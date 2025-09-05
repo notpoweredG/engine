@@ -1,0 +1,113 @@
+{
+    "name": "Main story",
+    "scens": [
+        {
+            "name": "greeting",
+            "backgroundurl": "background_1.png",
+            "frames": [
+                {
+                    "name": "openning",
+                    "text": {
+                        "author": "Jane Doe",
+                        "messege": "Welcome",
+                        "fonturl": "BigBlue.ttf"
+                    },
+                    "persons": [
+                        {
+                            "name": "first",
+                            
+                            "textureurl": "texture.png",
+                            
+                            "transx": 0.5,
+                            "transy": 0.5,
+                            
+                            "posx": 0.0,
+                            "posy": 0.0
+                        },
+                        {
+                            "name": "second",
+                            
+                            "textureurl": "texture.png",
+                            
+                            "transx": 0.5,
+                            "transy": 0.5,
+                            
+                            "posx": 1.0,
+                            "posy": 1.0
+                        }
+                    ]
+                },
+                {
+                    "name": "second scren",
+                    "text": {
+                        "author": "Jane Doe",
+                        "messege": "Welcome",
+                        "fonturl": "BigBlue.ttf"
+                    },
+                    "persons": [
+                        {
+                            "name": "first",
+                            
+                            "textureurl": "texture.png",
+                            
+                            "transx": 0.5,
+                            "transy": 0.5,
+                            
+                            "posx": 0.5,
+                            "posy": 0.0
+                        },
+                        {
+                            "name": "second",
+                            
+                            "textureurl": "texture.png",
+                            
+                            "transx": 0.5,
+                            "transy": 0.5,
+                            
+                            "posx": -0.5,
+                            "posy": 0.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "second scene",
+            "backgroundurl": "background_2.png",
+            "frames": [
+                {
+                    "name": "first",
+                    "text": {
+                        "author": "Jane Doe",
+                        "messege": "Welcome",
+                        "fonturl": "BigBlue.ttf"
+                    },
+                    "persons": [
+                        {
+                            "name": "first",
+                            
+                            "textureurl": "texture.png",
+                            
+                            "transx": 0.5,
+                            "transy": 0.5,
+                            
+                            "posx": -0.5,
+                            "posy": -0.5
+                        },
+                        {
+                            "name": "second",
+                            
+                            "textureurl": "texture.png",
+                            
+                            "transx": 0.5,
+                            "transy": 0.5,
+                            
+                            "posx": 0.5,
+                            "posy": 0.5
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
